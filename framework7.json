@@ -1,0 +1,26 @@
+{
+  "cwd": "/home/beckspoppn/Dev/try",
+  "type": [
+    "web"
+  ],
+  "name": "Poppn",
+  "framework": "svelte",
+  "template": "tabs",
+  "cssPreProcessor": "less",
+  "bundler": "webpack",
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  },
+  "theming": {
+    "customColor": true,
+    "color": "#CBB26A",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}

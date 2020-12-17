@@ -1,0 +1,10 @@
+ls:
+    .dir: kebab-case
+    .config.js: lowercase
+    .js: kebab-case
+    .ts: kebab-case
+    .d.ts: kebab-case
+
+ignore:
+    - .git
+    - node_modules
